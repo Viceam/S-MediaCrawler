@@ -6,19 +6,8 @@ COOKIES = ""
 SORT_TYPE = "popularity_descending"  # 具体值参见media_platform.xxx.field下的枚举值，展示只支持小红书
 CRAWLER_TYPE = "search"  # 爬取类型，search(关键词搜索) | detail(帖子详情)| creator(创作者主页数据)
 
-# 是否开启 IP 代理
-ENABLE_IP_PROXY = False
-
-# 代理IP池数量
-IP_PROXY_POOL_COUNT = 2
-
-# 代理IP提供商名称
-IP_PROXY_PROVIDER_NAME = "kuaidaili"
-
 # 设置为True不会打开浏览器（无头浏览器）
 # 设置False会打开一个浏览器
-# 小红书如果一直扫码登录不通过，打开浏览器手动过一下滑动验证码
-# 抖音如果一直提示失败，打开浏览器看下是否扫码登录之后出现了手机号验证，如果出现了手动过一下再试。
 HEADLESS = False
 
 # 是否保存登录状态
